@@ -1,0 +1,377 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "consultant": "Consultant",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "common": {
+    "search": "Search",
+    "language": "Language",
+    "welcome": "Welcome to Titanium Innovations",
+    "loading": "Loading...",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "previousSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "goToSlide": "Go to slide {{index}}",
+    "pauseSlideshow": "Pause slideshow",
+    "playSlideshow": "Play slideshow"
+  },
+  "pages": {
+    "home": {
+      "title": "Welcome to Our Company",
+      "subtitle": "We provide innovative engineering solutions",
+      "cta": "Get Started",
+      "heroTitle1": "The Foundation of Everything",
+      "heroTitle2": "You Want to Build",
+      "heroDescription": "At Titanium Engineering Project Management, we bring hands-on experience in civil engineering to your projects. From scheduling and site coordination to documentation and authority liaison, we handle every detail with precision. Serving Bavaria and across Germany, we help planning offices and construction companies build with confidence.",
+    
+"heroElements": [
+  { "title": "Cost"},
+  { "title": "Time" },
+  { "title": "Quality"}
+],
+"methodology": {
+  "title": "Our Methodology: A Foundation of Trust",
+  "subtitle": "We build success on four key pillars, ensuring your project is managed with precision, integrity, and clear communication.",
+  "cards": [
+    {
+      "title": "Construction phase planning and scheduling",
+      "heading": "Mastering Phase Planning & Scheduling",
+      "description": "We create detailed roadmaps that synchronize every project aspect. Our advanced scheduling prevents bottlenecks and optimizes workflow from groundbreaking to final handover.",
+      "points": [
+        "Advanced CPM scheduling with milestone tracking",
+        "Weather-adaptive timeline adjustments",
+        "Resource leveling and conflict resolution",
+        "Real-time progress visualization dashboards"
+      ]
+    },
+    {
+      "title": "Subcontractor coordination",
+      "heading": "Harmonizing Every Trade with Expert Coordination",
+      "description": "Transform chaos into harmony. We orchestrate multiple trades seamlessly, ensuring each specialist contributes their expertise at precisely the right moment.",
+      "points": [
+        "Multi-trade sequencing and interface management",
+        "Digital coordination platforms and communication hubs",
+        "Performance benchmarking and quality scorecards",
+        "Conflict mediation and resolution protocols"
+      ]
+    },
+    {
+      "title": "Construction site documentation",
+      "heading": "Creating an Immutable Digital Project Record",
+      "description": "Our comprehensive system captures every detail, decision, and milestone, creating an immutable digital record for future reference and legal protection.",
+      "points": [
+        "360° photo documentation with timestamp geolocation",
+        "Automated progress reports with AI-powered insights",
+        "Compliance audit trails and regulatory submissions",
+        "Cloud-based archive with instant search capabilities"
+      ]
+    },
+    {
+      "title": "Support for site management",
+      "heading": "Amplifying Your Site Management Capabilities",
+      "description": "Amplify your management capabilities with our specialized support. We provide additional expertise and manpower to handle complex challenges and maintain momentum.",
+      "points": [
+        "Technical problem-solving and engineering support",
+        "Safety protocol implementation and training",
+        "Quality control inspections and testing coordination",
+        "Emergency response and crisis management"
+      ]
+    },
+    {
+      "title": "Planning and tendering",
+      "heading": "Securing Best Value Through Strategic Tendering",
+      "description": "Navigate construction procurement with confidence. Our expertise ensures you secure the best value while maintaining quality standards and timeline commitments.",
+      "points": [
+        "Market analysis and competitive bidding strategies",
+        "Technical specification development and optimization",
+        "Vendor qualification and prequalification processes",
+        "Contract structuring and risk allocation frameworks"
+      ]
+    },
+    {
+      "title": "Collaboration with authorities/inspectors",
+      "heading": "Bridging Gaps with Authorities and Inspectors",
+      "description": "We bridge the gap between construction reality and regulatory needs, ensuring your project meets all compliance standards while maintaining positive relationships.",
+      "points": [
+        "Permit application strategy and submission management",
+        "Inspector relationship building and communication protocols",
+        "Code interpretation and compliance verification",
+        "Variance requests and approval negotiations"
+      ]
+    },
+    {
+      "title": "Invoice verification",
+      "heading": "Protecting Your Budget with Meticulous Verification",
+      "description": "Protect your budget with meticulous invoice verification. Our financial experts scrutinize every line item to prevent overcharges and ensure contractual compliance.",
+      "points": [
+        "Line-by-line cost verification against contracts",
+        "Change order validation and approval workflows",
+        "Payment milestone tracking and release authorization",
+        "Budget variance analysis and forecasting alerts"
+      ]
+    },
+    {
+      "title": "Project management",
+      "heading": "Unifying Projects with Next-Generation Management",
+      "description": "Experience next-gen management that unifies all elements into a coherent strategy. We deliver projects that exceed expectations while controlling time, cost, and quality.",
+      "points": [
+        "Integrated project control systems and dashboards",
+        "Stakeholder communication and reporting protocols",
+        "Risk mitigation strategies and contingency planning",
+        "Post-completion analysis and lessons learned"
+      ]
+    }
+  ]
+},
+      "constructions": {
+        "title": "Our Core Construction Sectors",
+        "subtitle": "Expertise across a diverse range of demanding construction environments.",
+        "cards": [
+          { "title": "Residential Apartment Complexes", "description": "Our expertise extends to multi-family residential projects, where we coordinate all trades to deliver high-quality living spaces that meet both developer and resident expectations." },
+          { "title": "Commercial Office Towers", "description": "We specialize in the end-to-end project management of high-rise commercial buildings, ensuring structural integrity, on-time delivery, and adherence to complex urban regulations." },
+          { "title": "Industrial & Logistics Facilities", "description": "From massive warehouses to specialized manufacturing plants, we manage the unique challenges of industrial construction, focusing on workflow efficiency and robust infrastructure." },
+          { "title": "Public Infrastructure Projects", "description": "We bring precision engineering and management to vital public works, including bridges and transport hubs, ensuring durability and long-term value for the community." }
+        ]
+      },
+      "strategicPartner": {
+        "title": "A Strategic Partner, Not Just a Manager",
+        "description": "Beyond day-to-day oversight, we provide the strategic insights that elevate your project. We leverage 15 years of engineering experience to add value at every turn, transforming challenges into opportunities for innovation and efficiency.",
+        "imageAlt": "Strategic Project Planning",
+        "services": [
+          { "title": "Strategic Planning", "description": "Aligning project goals with long-term business objectives." },
+          { "title": "Quality & Safety Audits", "description": "Implementing rigorous checks to guarantee excellence and security." },
+          { "title": "Transparent Reporting", "description": "Utilizing modern tools for real-time progress and budget tracking." },
+          { "title": "Technology Integration", "description": "Advising on and implementing tools like BIM for enhanced efficiency." }
+        ]
+      },
+      "testimonials": {
+        "title": "What Our Clients Say",
+        "subtitle": "Building strong partnerships is our greatest measure of success. Here's what our valued clients have to say.",
+        "prevAriaLabel": "Previous testimonial",
+        "nextAriaLabel": "Next testimonial",
+        "goToSetAriaLabel": "Go to testimonial set {{index}}",
+        "items": [
+          { "name": "Klaus Mueller", "role": "CEO", "company": "Schmidt Architekten", "text": "Titanium Engineering's project management is second to none. Their scheduling and coordination kept our multi-million euro project on track and under budget. A true partner." },
+          { "name": "Sabine Richter", "role": "Construction Manager", "company": "Bauer AG", "text": "Their expertise in navigating the local Bauamt and regulations saved us countless hours and potential fines. Incredibly professional and thorough from start to finish." },
+          { "name": "Jürgen Klein", "role": "Lead Planning Engineer", "company": "Ingenieurbüro Klein", "text": "The level of detail in their site documentation and invoice reviews gave us complete peace of mind. We always knew the precise financial and physical state of our project." },
+          { "name": "Anja Weber", "role": "Project Lead", "company": "Mayer Bauträger", "text": "Amazing results! Their management support was critical in overcoming unforeseen on-site challenges. Their problem-solving skills are exceptional." },
+          { "name": "Stefan Koch", "role": "Director of Operations", "company": "Hoffmann & Söhne", "text": "The most reliable project management firm we have ever worked with. Their commitment to quality and transparency is evident in everything they do. Highly recommended." }
+        ]
+      },
+      "recentBlogTitle": "Our Recent Posts"
+    },
+    "about": {
+      "story": {
+        "title": "Forged by 15 Years of Engineering Excellence.",
+        "subtitle": "Our Story",
+        "paragraph": "I founded Titanium Engineering Project Management with a single, clear vision: to be the strongest link in the construction chain. The name \"Titanium\" represents not only strength but also the high-performance, corrosion-resistant nature of our management process. We don't just oversee projects; we protect them.",
+        "listItems": [
+          "Unwavering commitment to project timelines.",
+          "Transparent communication with all stakeholders.",
+          "Meticulous budget and quality control."
+        ],
+        "videoLinkText": "Watch Our Company Video"
+      },
+      "stats": {
+        "title": "Our Track Record",
+        "subtitle": "Proven results and a commitment to excellence.",
+        "items": {
+          "experience": "Years of Experience",
+          "projects": "Projects Completed+",
+          "satisfaction": "Client Satisfaction (%)",
+          "teamMembers": "Core Team Members"
+        }
+      },
+      "team": {
+        "title": "Meet Our Team",
+        "subtitle": "The dedicated professionals behind our success.",
+        "members": [
+          { "name": "Andreas Keller", "role": "Founder & Lead Civil Engineer", "description": "With 15 years of field-proven experience, Andreas leads every project with precision and a commitment to excellence." },
+          { "name": "Lena Bauer", "role": "Project Coordinator", "description": "Lena ensures seamless communication and coordination between all stakeholders, from subcontractors to authorities." },
+          { "name": "Markus Wolf", "role": "Site Manager", "description": "Markus expertly oversees all on-site operations, guaranteeing quality, safety, and adherence to the project schedule." },
+          { "name": "Anja Weber", "role": "Lead Architect", "description": "Anja translates vision into reality, ensuring architectural integrity and design excellence throughout the build process." },
+          { "name": "Stefan Koch", "role": "Financial Controller", "description": "Stefan manages project finances with meticulous care, providing transparent budget tracking and invoice control." },
+          { "name": "Jonas Richter", "role": "Safety & Compliance Officer", "description": "Jonas is dedicated to maintaining the highest safety standards and ensuring full regulatory compliance on every job site." }
+        ]
+      }
+    },
+   "services": {
+  "title": "Our Services",
+  "readMore": "Read More",
+  "cards": [
+    { 
+      "title": "Phase & Schedule Planning", 
+      "description": "We create detailed schedules and plan every construction phase to ensure your project is completed on time." 
+    },
+    { 
+      "title": "Subcontractor Coordination", 
+      "description": "We seamlessly manage and coordinate all subcontractors on-site, ensuring an efficient workflow and high quality." 
+    },
+    { 
+      "title": "Site Documentation", 
+      "description": "We provide thorough and consistent documentation of all site progress, activities, and key milestones for a clear project record." 
+    },
+    { 
+      "title": "Management Support", 
+      "description": "Offering expert, hands-on support to your construction management team, assisting with daily operations and oversight." 
+    },
+    { 
+      "title": "Planning & Tendering", 
+      "description": "Handling the complete planning and tendering process, from initial designs to soliciting competitive contractor bids." 
+    },
+    { 
+      "title": "Authority & Inspector Liaison", 
+      "description": "We act as the primary liaison with government authorities and inspectors to secure permits and ensure full compliance." 
+    },
+    { 
+      "title": "Invoice Auditing", 
+      "description": "We carefully review and verify all project-related invoices to ensure accuracy and maintain strict budget control." 
+    },
+    { 
+      "title": "Project Control", 
+      "description": "Implementing robust project control systems to monitor progress, manage risks, and steer the project to success." 
+    },
+    { 
+      "title": "Quality Assurance", 
+      "description": "Ensuring the final build meets the highest quality standards and managing a smooth handover process to you, the client." 
+    }
+  ]
+},
+    "consultant": {
+      "profile": {
+        "name": "Andreas Keller",
+        "role": "Founder & Lead Civil Engineer, Titanium Engineering",
+        "bio": "With 15 years of field-proven experience, I founded Titanium Engineering to bridge the critical gap between brilliant design and flawless execution. My passion lies in bringing order to complexity, ensuring every project is a testament to quality, efficiency, and unwavering integrity. My hands-on approach means I am deeply involved in every project we undertake, serving as a direct partner to our clients.",
+        "ctaButton": "Contact Me"
+      },
+      "skills": {
+        "title": "Core Expertise",
+        "subtitle": "Specialized skills to guarantee project success.",
+        "items": [
+          "Project Scheduling & Management",
+          "Risk Mitigation & Problem Solving",
+          "Budget Control & Financial Oversight",
+          "Regulatory Compliance (Bauamt)",
+          "Subcontractor & Stakeholder Coordination"
+        ]
+      },
+      "articles": {
+        "title": "Recent Insights",
+        "subtitle": "Sharing knowledge from the front lines of project management.",
+        "readMore": "Read Article"
+      }
+    },
+    "projects": {
+      "title": "Our Projects",
+      "filters": [
+        "All",
+        "Remodeling",
+        "Construction",
+        "Repairs",
+        "Design"
+      ],
+      "overlay": {
+        "zoomIn": "Zoom In",
+        "moreDetails": "More Details"
+      },
+      "cards": [
+        { "title": "Modern Kitchen Renovation", "category": "Remodeling", "description": "Complete overhaul of a residential kitchen." },
+        { "title": "Commercial Office Tower", "category": "Construction", "description": "Structural engineering and project management." },
+        { "title": "Historic Facade Repair", "category": "Repairs", "description": "Structural repairs for a historic building." },
+        { "title": "Residential Home Blueprint", "category": "Design", "description": "Architectural design and planning phase." },
+        { "title": "Open-Concept Living Space", "category": "Remodeling", "description": "Combining living and dining areas." },
+        { "title": "High-Rise Apartment Complex", "category": "Construction", "description": "Multi-family residential construction." },
+        { "title": "Foundation Integrity Check", "category": "Repairs", "description": "Foundation assessment and reinforcement." },
+        { "title": "Industrial Warehouse Layout", "category": "Design", "description": "Logistics and structural design for warehousing." },
+        { "title": "City Infrastructure Project", "category": "Construction", "description": "Public works and civil engineering management." }
+      ]
+    },
+    "contact": {
+     "title": "Get In Touch",
+    "subtitle": "We're here to help and answer any question you might have. We look forward to hearing from you.",
+    "infoCards": {
+      "address": {
+        "title": "Address",
+        "value": "Kurfürstendamm 21, 10719 Berlin, Germany"
+      },
+      "phone": {
+        "title": "Call Us",
+        "value": "+49 30 12345678"
+      },
+      "email": {
+        "title": "Email Us",
+        "value": "info@titaniumengineeringpm.com"
+
+
+      }
+      },
+      "form": {
+        "placeholders": {
+          "name": "Your Name",
+          "email": "Your Email",
+          "subject": "Subject",
+          "message": "Message"
+        },
+        "submitButton": "Send Message"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "readMore": "Read More",
+      "posts": [
+        { "date": "August 15", "title": "Why a Flawless Construction Schedule is Your Project's Most Valuable Asset", "author": "Jonas Richter", "category": "Project Management", "excerpt": "A successful project runs on a realistic, optimized, and actively managed schedule. We explore how our experience ensures milestones are met with precision." },
+        { "date": "August 22", "title": "The Art of Control: Eliminating Chaos Through Expert Subcontractor Coordination", "author": "Stefan Koch", "category": "Site Management", "excerpt": "A project’s momentum depends on the seamless integration of its many moving parts. Learn how we synchronize all trades to eliminate friction and maximize productivity." },
+        { "date": "August 29", "title": "Navigating the Bauamt: How Expert Authority Liaison Keeps Your German Project on Track", "author": "Anja Weber", "category": "Regulatory Compliance", "excerpt": "Navigating German building codes requires deep expertise. We act as the official liaison with the Bauamt, managing paperwork to avoid costly delays." },
+        { "date": "September 05", "title": "The Unseen Hero: How Meticulous Site Documentation Protects Your Project", "author": "Alex Schmidt", "category": "Risk Management", "excerpt": "Clear, consistent documentation is your project's best defense. Discover our process for managing daily logs and RFIs to create an unimpeachable record." },
+        { "date": "September 17", "title": "Protecting Your Bottom Line: The Power of Rigorous Invoice Review", "author": "Lena Bauer", "category": "Financial Control", "excerpt": "Your financial interests are paramount. We delve into vigilant invoice verification and how our project control provides financial clarity and prevents budget overruns." },
+        { "date": "September 28", "title": "More Than Oversight: Augmenting Your Team with On-Demand Management Support", "author": "Markus Wolf", "category": "Team Support", "excerpt": "Whether you need to reinforce your in-house team or require specialized oversight, flexible support is key. Learn how our 'boots on the ground' approach provides the solutions you need." }
+      ]
+    }
+  },
+  "footer": {
+    "companyName": "TITANIUM",
+    "companyDescription": "At Titanium Engineering Project Management, we bring hands-on experience in civil engineering to your projects. From scheduling and site coordination to documentation and authority liaison, we handle every detail with precision.",
+    "contact": {
+      "title": "Contact Info"
+    },
+    "address": {
+      "street": "Musterstraße 123",
+      "city": "80331 München",
+      "country": "Germany"
+    },
+    "phoneLabel": "Phone:",
+    "emailLabel": "Email:",
+    "socials": [
+      { "label": "Twitter" },
+      { "label": "Facebook" },
+      { "label": "Instagram" },
+      { "label": "LinkedIn" }
+    ],
+    "ourServices": {
+      "title": "Our Services",
+      "items": [
+        "Construction Scheduling",
+        "Subcontractor Coordination",
+        "Site Documentation",
+        "Management Support",
+        "Planning & Tendering"
+      ]
+    },
+    "legal": {
+      "title": "Legal",
+      "items": [
+        "Privacy Policy",
+        "Terms of Service",
+        "Imprint"
+      ]
+    },
+    "copyright": "© Copyright www.titaniumengineeringpm.com  All Rights Reserved",
+    "scrollToTop": "Scroll to top"
+  }
+}
