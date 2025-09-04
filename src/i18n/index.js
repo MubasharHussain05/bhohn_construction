@@ -4,18 +4,14 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 // Import translation files
 import enTranslation from '../locales/en/translation.json';
-import deTranslation from '../locales/de/translation.json';
-import trTranslation from '../locales/tr/translation.json';
+import frTranslation from '../locales/fr/translation.json';
 
 const resources = {
   en: {
     translation: enTranslation
   },
-  de: {
-    translation: deTranslation
-  },
-  tr: {
-    translation: trTranslation
+  fr: {
+    translation: frTranslation
   }
 };
 
@@ -27,8 +23,8 @@ i18n
   // Initialize i18next
   .init({
     resources,
-    lng: 'de', // Default language set to German
-    fallbackLng: 'de', // Fallback language set to German
+    lng: 'en', // Default language set to English
+    fallbackLng: 'en', // Fallback language set to English
     debug: false, // Set to true for debugging
     interpolation: {
       escapeValue: false // React already does escaping

@@ -74,7 +74,7 @@ const Footer = () => {
               />
             </NavLink>
             <p className="text-sm text-gray-900 leading-relaxed mb-4">
-              Professional engineering project management services across Germany.
+              Professional engineering project management services across france.
             </p>
             <div className="flex space-x-2">
               {socialLinks.map((social) => (
@@ -96,10 +96,10 @@ const Footer = () => {
               </p>
               <div className="space-y-1">
                 <p className="text-gray-900">
-                  <span className="font-semibold text-gray-800">{t('footer.phoneLabel')}</span> +49 176 62499547
+                  <span className="font-semibold text-gray-800">{t('footer.phoneLabel')}</span> +33 1 42 65 78 90
                 </p>
                 <p className="text-gray-600">
-                  <span className="font-semibold text-gray-800">{t('footer.emailLabel')}</span> info@titaniumengineeringpm.com
+                  <span className="font-semibold text-gray-800">{t('footer.emailLabel')}</span> info@bhohnconstruction.com
                 </p>
               </div>
             </div>

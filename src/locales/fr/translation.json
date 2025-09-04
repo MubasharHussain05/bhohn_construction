@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "consultant": "Consultant",
+    "projects": "Projets",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "common": {
+    "search": "Rechercher",
+    "language": "Langue",
+    "welcome": "Bienvenue chez Bhohn Construction",
+    "loading": "Chargement...",
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "previousSlide": "Diapositive précédente",
+    "nextSlide": "Diapositive suivante",
+    "goToSlide": "Aller à la diapositive {{index}}",
+    "pauseSlideshow": "Mettre en pause le diaporama",
+    "playSlideshow": "Lire le diaporama"
+  },
+  "pages": {
+    "home": {
+      "title": "Bienvenue dans notre entreprise",
+      "subtitle": "Nous fournissons des solutions d'ingénierie innovantes",
+      "cta": "Commencer",
+      "heroTitle1": "La fondation de tout",
+      "heroTitle2": "Ce que vous voulez construire",
+      "heroDescription": "Chez Bhohn Construction, nous apportons une expertise complète en génie civil à vos projets. De la planification précise et coordination de site à la documentation approfondie et liaison avec les autorités, nous gérons chaque aspect avec une attention exceptionnelle aux détails. Servant dans toute la France, nous permettons aux bureaux de planification et entreprises de construction de bâtir avec une confiance totale.",
+      "heroElements": [
+        { "title": "Coût"},
+        { "title": "Temps" },
+        { "title": "Qualité"}
+      ],
+      "recentBlogTitle": "Nos articles récents"
+    }
+  },
+  "footer": {
+    "companyName": "BHOHN CONSTRUCTION",
+    "companyDescription": "Chez Bhohn Construction, nous apportons une expérience pratique en génie civil à vos projets.",
+    "copyright": "© Copyright www.bhohnconstruction.com Tous droits réservés",
+    "scrollToTop": "Retour en haut"
+  }
+}

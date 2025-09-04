@@ -11,8 +11,9 @@ const BlogPage = () => {
       
       
       {/* RENDER THE SEPARATE BLOG CONTENT COMPONENT */}
-      <BlogComponent showTitle={false} />
+      {/* <BlogComponent showTitle={false} /> */}
 
+<h1>Coming Soon</h1>
     </main>
   );
 };

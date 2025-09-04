@@ -15,7 +15,8 @@ const About = () => {
      
 
       {/* RENDER THE SEPARATE ABOUT CONTENT COMPONENT */}
-      <AboutComponent/>
+      {/* <AboutComponent/> */}
+      <h1>Coming Soon</h1>
 
       {/* RENDER THE SEPARATE TESTIMONIALS COMPONENT */}
      

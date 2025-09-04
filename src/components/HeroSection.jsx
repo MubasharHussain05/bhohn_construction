@@ -3,8 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { FaCalculator, FaClock, FaGem } from 'react-icons/fa';
 
 // Import your building/architecture images
-import homeBanner from '../assets/img/homeBanner.jpg'; // Assuming this is your subtle background pattern
-import rightImage from '../assets/img/rightImage2.png';
+import homeBanner from '../assets/imageBanner3.png';
 
 const HeroStatic = () => {
   const { t } = useTranslation();
@@ -12,86 +11,60 @@ const HeroStatic = () => {
   // This data structure is assumed based on your code
   const heroElements = t('pages.home.heroElements', { returnObjects: true }) || [];
 
-  // It's cleaner to define icon properties once
-  const iconSize = 48; // A good size for visibility
-  const iconColor = "#B49562"; // Using the brand gold for consistency
-
   const icons = [
-    <FaCalculator className="h-6 w-6" />,
-    <FaClock className="h-6 w-6" />,
-    <FaGem className="h-6 w-6" />
+    <FaCalculator className="h-8 w-8" />,
+    <FaClock className="h-8 w-8" />,
+    <FaGem className="h-8 w-8" />
   ];
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center overflow-hidden bg-white">
-      {/* Background Image: Made subtle to not interfere with content */}
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background with enhanced overlay for better text contrast */}
       <div className="absolute inset-0">
         <img 
           src={homeBanner} 
-          alt="Architectural Banner Pattern" 
+          alt="Luxury Architecture" 
           className="w-full h-full object-cover" 
         />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60"></div>
       </div>
 
-      {/* Hero Content Wrapper */}
-      <div className="relative z-10 w-full p-4 sm:p-6 lg:p-8">
-        <div className="container mx-auto">
+      {/* Centered Content */}
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+        {/* Main Title with white text and hover effects */}
+        <h1 className="text-5xl md:text-5xl lg:text-5xl font-bold tracking-tight mb-4 drop-shadow-2xl">
+          <span className="block mb-4 text-white font-serif opacity-90 hover:opacity-100 transition-opacity duration-300">
+            {t('pages.home.heroTitle1')}
+          </span>
+          <span className="block text-white font-serif opacity-85 hover:opacity-100 transition-opacity duration-300">
+            {t('pages.home.heroTitle2')}
+          </span>
+        </h1>
 
-          {/* Top Section: Text & Image */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            
-            {/* Left Side - Text Content */}
-            <div className="text-left">
-              {/* Main Title */}
-              <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-                <span className="block mb-2 text-gray-800">{t('pages.home.heroTitle1')}</span>
-                <span className="block" style={{ color: '#B49562' }}>{t('pages.home.heroTitle2')}</span>
-              </h1>
+        {/* Luxury Accent Line */}
+        <div className="flex justify-center mb-4">
+          <div className="w-32 h-0.5 bg-gradient-to-r from-transparent via-white/70 to-transparent opacity-80 hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
 
-              {/* Accent Line */}
-              <div 
-                className="w-20 h-1 my-8" 
-                style={{ backgroundColor: '#B49562' }}
-              ></div>
-
-              {/* Description */}
-              <p className="text-base text-gray-900 leading-relaxed max-w-xl mb-12">
-                {t('pages.home.heroDescription')}
-              </p>
-            
-             {/* Icons at bottom of image */}
-              <div className="flex justify-start gap-8">
-                {heroElements.map((element, index) => (
-                  <div key={index} className="flex flex-col items-center text-center group">
-                    <div className="mb-2">
-                      <div className="flex items-center justify-center h-12 w-12 rounded-full bg-gray-200 text-[#B49562] transition-colors duration-300 group-hover:bg-[#B49562] group-hover:text-white">
-                        {icons[index]}
-                      </div>
-                    </div>
-                    <h3 className="text-sm font-semibold text-gray-900">
-                      {element.title}
-                    </h3>
-                  </div>
-                ))}
+        {/* Description with white text and opacity */}
+        <p className="text-xl md:text-[20px] text-white leading-relaxed max-w-3xl mx-auto mb-8 drop-shadow-lg opacity-85 hover:opacity-100 transition-opacity duration-300">
+          {t('pages.home.heroDescription')}
+        </p>
+      
+        {/* Luxury Icons with white text */}
+        <div className="flex justify-center gap-12 md:gap-16">
+          {heroElements.map((element, index) => (
+            <div key={index} className="flex flex-col items-center text-center group">
+              <div className="mb-4">
+                <div className="flex items-center justify-center h-20 w-20 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 text-white transition-all duration-500 group-hover:bg-white group-hover:text-[#04244D] group-hover:scale-110 group-hover:shadow-2xl opacity-90 group-hover:opacity-100">
+                  {icons[index]}
+                </div>
               </div>
-              
+              <h3 className="text-lg font-semibold text-white font-serif tracking-wide opacity-85 group-hover:opacity-100 transition-opacity duration-300">
+                {element.title}
+              </h3>
             </div>
-
-            {/* Right Side - Image */}
-            <div className="flex flex-col md:mb-20 mb-4">
-              <img 
-                src={rightImage}
-                alt="Building Illustration" 
-                className="w-full max-w-2xl md:max-w-2xl lg:max-w-6xl xl:max-w-6xl h-auto transition-transform duration-300 ease-in-out hover:scale-105" 
-              />
-
-              
-            </div>
-           
-          </div>
-
-
-
+          ))}
         </div>
       </div>
     </section>

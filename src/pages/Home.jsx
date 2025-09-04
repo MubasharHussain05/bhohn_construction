@@ -11,10 +11,10 @@ const Home = () => {
          <div className="bg-gray-200">
             <HeroSection/>
             <TabSection/> 
-            {/* <Constructions/> */}
+            {/* <Constructions/> 
             {/* <StrategicPartnerSection/> */}
             {/* <Testimonials/> */}
-            <BlogComponent postLimit={3} titleKey="pages.home.recentBlogTitle" />
+            {/* <BlogComponent postLimit={3} titleKey="pages.home.recentBlogTitle" /> */}
         </div>
     );
 }

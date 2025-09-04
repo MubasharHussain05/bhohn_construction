@@ -14,7 +14,8 @@ const ServicesPage = () => {
       
      
       {/* RENDER THE SEPARATE SERVICE CONTENT COMPONENT */}
-      <ServiceComponent />
+      {/* <ServiceComponent /> */}
+<h1>Coming Soon</h1>
 
     </main>
   );
